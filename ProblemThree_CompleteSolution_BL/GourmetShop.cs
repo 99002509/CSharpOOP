@@ -11,20 +11,20 @@ namespace ProblemThree_CompleteSolution_BL
         
         public int ItemCode
         {
-            get { return this.ItemCode; }
-            set { this.ItemCode = value; }
+            get;
+            set;
         }
 
         public string ItemName
         {
-            get { return this.ItemName; }
-            set { this.ItemName = value; }
+            get;
+            set;
         }
 
         public Dictionary <int,double> ItemPrice
         {
-            get { return this.ItemPrice; }
-            set { this.ItemPrice = value; }
+            get;
+            set;
         }
 
         public GourmetShop(int iCode, string iName, Dictionary<int, double> iPrice)

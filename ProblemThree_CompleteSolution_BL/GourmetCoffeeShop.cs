@@ -10,12 +10,12 @@ namespace ProblemThree_CompleteSolution_BL
     {
         public double TotalBillValue
         {
-            get { return this.TotalBillValue; }
-            set { this.TotalBillValue = value; }
+            get;
+            set;
         }
         public GourmetCoffeeShop(int iCode, string iName, Dictionary<int, double> iPrice) : base(iCode, iName, iPrice)
         {
-            this.TotalBillValue = 0;
+            
         }
         public override double PayPerPiece(int quantity)
         {
