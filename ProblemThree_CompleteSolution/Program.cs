@@ -11,17 +11,17 @@ namespace ProblemThree_CompleteSolution
         static void Main(string[] args)
         {
             ////SampleCodeToTestYourClassImplementation
-            //var organicPriceDict = new Dictionary<int, double>();
+            var organicPriceDict = new Dictionary<int, double>();
             ////Key 1 for first product
-            //organicPriceDict.Add(1, 234.10);
+            organicPriceDict.Add(1, 234.10);
             ////Key 2 for second product
-            //organicPriceDict.Add(2, 100.100);
-            //var gosObj = new GourmetOrganicShop(1, "Non Polished Tur Dal", organicPriceDict);
-            //var gosTwoObj = new GourmetOrganicShop(2, "Non Polished Tur Dal", organicPriceDict);
-            //int quantityToBuy = 2;
-            //int quantityInGrams = 200;
-            //Console.WriteLine("The total cost for {0} packets of {1} is {2}/- INR", quantityToBuy,gosObj.ItemName,gosObj.PayPerPiece(quantityToBuy));
-            //Console.WriteLine("The total cost for {0} grams of {1} is {2}/- INR", quantityInGrams, gosTwoObj.ItemName, gosTwoObj.PayPerPiece(quantityToBuy));
+            organicPriceDict.Add(2, 100.100);
+            var gosObj = new GourmetOrganicShop(1, "Non Polished Tur Dal", organicPriceDict);
+            var gosTwoObj = new GourmetOrganicShop(2, "Non Polished Tur Dal", organicPriceDict);
+            int quantityToBuy = 2;
+            int quantityInGrams = 200;
+            Console.WriteLine("The total cost for {0} packets of {1} is {2}/- INR", quantityToBuy,gosObj.ItemName,gosObj.PayPerPiece(quantityToBuy));
+            Console.WriteLine("The total cost for {0} grams of {1} is {2}/- INR", quantityInGrams, gosTwoObj.ItemName, gosTwoObj.PayPerPiece(quantityToBuy));
 
            
             //var coffeePriceDict = new Dictionary<int, double>();
