@@ -14,11 +14,10 @@ namespace ProblemThree_CompleteSolution_BL
             set;
         }
         
-        public GourmetOrganicShop(int iCode, string iName,  Dictionary<int, double> iPrice)
+
+        public GourmetOrganicShop(int iCode, string iName, Dictionary<int, double> iPrice) : base (iCode, iName, iPrice)
         {
-            this.ItemCode = iCode;
-            this.ItemName = iName;
-            this.ItemPrice = iPrice;
+            this.TotalBillValue = 0;
         }
         public override double PayPerPiece(int quantity)
         {

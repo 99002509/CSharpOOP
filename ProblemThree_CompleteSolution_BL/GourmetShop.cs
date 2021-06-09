@@ -21,19 +21,22 @@ namespace ProblemThree_CompleteSolution_BL
             set { this.ItemName = value; }
         }
 
-        public Dictionary<int,double> ItemPrice
+        public Dictionary <int,double> ItemPrice
         {
             get { return this.ItemPrice; }
             set { this.ItemPrice = value; }
         }
-        
+
+        public GourmetShop(int iCode, string iName, Dictionary<int, double> iPrice)
+        {
+            this.ItemCode = iCode;
+            this.ItemName = iName;
+            this.ItemPrice = iPrice;
+        }
+
         public abstract double PayPerPiece(int quantity);
         public abstract double PayPerWeight(int weight);
-        public GourmetShop(int iCode, string iName)
-        {
-            ItemCode = iCode;
-            ItemName = iName;
-        }
+        
 
     }
 }

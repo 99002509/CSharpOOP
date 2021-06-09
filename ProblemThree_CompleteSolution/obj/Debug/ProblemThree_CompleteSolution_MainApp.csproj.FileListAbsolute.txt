@@ -13,6 +13,7 @@ D:\C#CODES\Assessment\CSharpOOP\ProblemThree_CompleteSolution\bin\Debug\ProblemT
 D:\C#CODES\Assessment\CSharpOOP\ProblemThree_CompleteSolution\bin\Debug\ProblemThree_CompleteSolution.pdb
 D:\C#CODES\Assessment\CSharpOOP\ProblemThree_CompleteSolution\bin\Debug\ProblemThree_CompleteSolution_BL.dll
 D:\C#CODES\Assessment\CSharpOOP\ProblemThree_CompleteSolution\bin\Debug\ProblemThree_CompleteSolution_BL.pdb
+D:\C#CODES\Assessment\CSharpOOP\ProblemThree_CompleteSolution\obj\Debug\ProblemThree_CompleteSolution_MainApp.csproj.AssemblyReference.cache
 D:\C#CODES\Assessment\CSharpOOP\ProblemThree_CompleteSolution\obj\Debug\ProblemThree_CompleteSolution_MainApp.csproj.CoreCompileInputs.cache
 D:\C#CODES\Assessment\CSharpOOP\ProblemThree_CompleteSolution\obj\Debug\ProblemThree_CompleteSolution_MainApp.csproj.CopyComplete
 D:\C#CODES\Assessment\CSharpOOP\ProblemThree_CompleteSolution\obj\Debug\ProblemThree_CompleteSolution.exe
