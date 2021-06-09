@@ -10,8 +10,8 @@ namespace ProblemThree_CompleteSolution_BL
     {
         public double TotalBillValue
         {
-            get;
-            set;
+            get { return this.TotalBillValue; }
+            set { this.TotalBillValue = value; }
         }
         
 
@@ -21,18 +21,18 @@ namespace ProblemThree_CompleteSolution_BL
         }
         public override double PayPerPiece(int quantity)
         {
-            TotalBillValue = quantity * this.ItemPrice[this.ItemCode];
-            return TotalBillValue;
+            this.TotalBillValue = quantity * this.ItemPrice[this.ItemCode];
+            return this.TotalBillValue;
         }
         public override double PayPerWeight(int weight)
         {
             TotalBillValue = weight * this.ItemPrice[this.ItemCode];
-            return TotalBillValue;
+            return this.TotalBillValue;
         }
 
         public double TaxOnTotalBill()
         {
-            return 0.05 * TotalBillValue;
+            return 0.05 * this.TotalBillValue;
         }
     }
 }
